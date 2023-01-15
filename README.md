@@ -36,3 +36,20 @@ jar cvf HolaMundo.jar -C out .
 ```bash
 java -cp HolaMundo.jar org.bedu.HolaMundo Lenin
 ```
+
+## Tipos de datos en Java SE 1.8
+
+* Crear y editar archivo Java "TiposDeDatos.java":
+```bash
+nano src/org/bedu/TiposDeDatos.java
+```
+
+* Compilar el archivo Java "TiposDeDatos.java" y generar la clase en el archivo "out/org/bedu/TiposDeDatos.class":
+```bash
+javac -d . src/org/bedu/TiposDeDatos.java -d out
+```
+
+* Ejecuta la clase "TiposDeDatos":
+```bash
+java -cp out org.bedu.TiposDeDatos
+```
