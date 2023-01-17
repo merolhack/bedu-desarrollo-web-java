@@ -46,10 +46,27 @@ nano src/org/bedu/TiposDeDatos.java
 
 * Compilar el archivo Java "TiposDeDatos.java" y generar la clase en el archivo "out/org/bedu/TiposDeDatos.class":
 ```bash
-javac -d . src/org/bedu/TiposDeDatos.java -d out
+javac -encoding UTF-8 -d . src/org/bedu/TiposDeDatos.java -d out
 ```
 
 * Ejecuta la clase "TiposDeDatos":
 ```bash
 java -cp out org.bedu.TiposDeDatos
+```
+
+## Estructuras de Control en Java SE 1.8
+
+* Crear y editar archivo Java "EstructurasDeControl.java":
+```bash
+nano src/org/bedu/EstructurasDeControl.java
+```
+
+* Compilar el archivo Java "EstructurasDeControl.java" y generar la clase en el archivo "out/org/bedu/EstructurasDeControl.class":
+```bash
+javac -encoding UTF-8 -d . src/org/bedu/EstructurasDeControl.java -d out
+```
+
+* Ejecuta la clase "EstructurasDeControl":
+```bash
+java -cp out org.bedu.EstructurasDeControl
 ```
