@@ -87,3 +87,20 @@ javac -encoding UTF-8 -d . src/org/bedu/LeerDatos.java -d out
 ```bash
 java -cp out org.bedu.LeerDatos
 ```
+
+## Cadenas de Texto en Java SE 1.8
+
+* Crear y editar archivo Java "CadenasDeTexto.java":
+```bash
+nano src/org/bedu/CadenasDeTexto.java
+```
+
+* Compilar el archivo Java "CadenasDeTexto.java" y generar la clase en el archivo "out/org/bedu/CadenasDeTexto.class":
+```bash
+javac -encoding UTF-8 -d . src/org/bedu/CadenasDeTexto.java -d out
+```
+
+* Ejecuta la clase "CadenasDeTexto":
+```bash
+java -cp out org.bedu.CadenasDeTexto
+```
