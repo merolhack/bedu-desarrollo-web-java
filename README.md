@@ -70,3 +70,20 @@ javac -encoding UTF-8 -d . src/org/bedu/EstructurasDeControl.java -d out
 ```bash
 java -cp out org.bedu.EstructurasDeControl
 ```
+
+## Leer datos del teclado en Java SE 1.8
+
+* Crear y editar archivo Java "LeerDatos.java":
+```bash
+nano src/org/bedu/LeerDatos.java
+```
+
+* Compilar el archivo Java "LeerDatos.java" y generar la clase en el archivo "out/org/bedu/LeerDatos.class":
+```bash
+javac -encoding UTF-8 -d . src/org/bedu/LeerDatos.java -d out
+```
+
+* Ejecuta la clase "LeerDatos":
+```bash
+java -cp out org.bedu.LeerDatos
+```
